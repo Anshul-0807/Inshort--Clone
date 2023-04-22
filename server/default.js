@@ -1,4 +1,4 @@
-
+import {data} from './constants/data.js'
 
 const DefaultData = () => {
     try{
