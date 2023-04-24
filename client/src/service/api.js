@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const getNews = async () => {
-  const URl = "";
+  const URl = "http://localhost:8000";
 
   try {
     return await axios.get(URL);
