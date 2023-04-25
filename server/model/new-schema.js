@@ -1,38 +1,37 @@
 import mongoose from "mongoose";
 
 const newSchema = new mongoose.Schema({
-  title:{
+  title: {
     type: String,
     required: true,
   },
-  author:{
+  author: {
     type: String,
     required: true,
   },
-  discription:{
+  discription: {
     type: String,
     required: true,
   },
-  url:{
+  url: {
     type: String,
     required: true,
     unique: true,
   },
-  timestamp:{
+  timestamp: {
     type: String,
     required: true,
   },
-  link:{
+  link: {
     type: String,
     required: true,
   },
-  publisher:{
+  publisher: {
     type: String,
     required: true,
   },
-    
 });
 
- const news = mongoose.model('news', newSchema)
+const news = mongoose.model("news", newSchema);
 
- export default news;
+export default news;
