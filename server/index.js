@@ -3,14 +3,16 @@ import Connection from "./database/db.js";
 import DefaultData from "./default.js";
 import route from "./routes/route.js";
 
-const app = express()
+const app = express();
 
-app.use('/')
+app.use("/");
 
-const PORT = 8000
+const PORT = 8000;
 
-Connection()
+Connection();
 
-app.listen(PORT, () => console.log(`server running successfully on port ${PORT}`))
+app.listen(PORT, () =>
+  console.log(`server running successfully on port ${PORT}`)
+);
 
-DefaultData()
+DefaultData();
