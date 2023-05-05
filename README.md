@@ -1,3 +1,3 @@
 # Inshort-Clone
-#inshort app
+#inshorts app
 news website
