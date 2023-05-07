@@ -14,5 +14,4 @@ const Articles = () => {
 
   return <Box></Box>;
 };
-
 export default Articles;
