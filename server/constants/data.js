@@ -97,5 +97,5 @@ export const data = [
         timestamp: '2021-09-04T03:55:14.000Z',
         link: 'https://www.manutd.com/en/amp/news/detail/cristiano-ronaldo-to-wear-the-number-7-shirt-for-man-utd?utm_campaign=fullarticle&utm_medium=referral&utm_source=inshorts',
         publisher: 'Man Utd'
-    }
+    },
 ]
