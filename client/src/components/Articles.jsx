@@ -1,4 +1,5 @@
 import React from "react";
+// component
 import { Box } from "@mui/material";
 import { useEffect } from "react";
 import { getNews } from "../service/api";
