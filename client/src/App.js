@@ -2,7 +2,7 @@ import "./App.css";
 import { Box, styled } from "@mui/material";
 
 // component
-import Header from "./components/Header";
+import Header from "./components/Header"; 
 import InfoHeader from "./components/InfoHeader";
 import Articles from "./components/Articles";
 
