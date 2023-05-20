@@ -1,7 +1,7 @@
 import express from "express";
 import Connection from "./database/db.js";
 import DefaultData from "./default.js";
-import route from "./routes/route.js";
+import Route from "./routes/route.js";
 
 const app = express();
 
