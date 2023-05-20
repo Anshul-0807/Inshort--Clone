@@ -5,7 +5,7 @@ import Route from "./routes/route.js";
 
 const app = express();
 
-// app.use("");
+app.use('/', Route);
 
 const PORT = 8000;
 
