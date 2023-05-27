@@ -11,6 +11,7 @@ const Articles = () => {
 
   const dailyNews = async () => {
     let response = await getNews();
+    console.log(response)
   };
 
   return <Box></Box>;
